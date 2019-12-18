@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mehul Patel</title>
+    <!-- <base href="/cryptum/demo/"> -->
+    <!-- load Google fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CPlayfair+Display:400,400i,700%7CRoboto+Condensed:400,700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.css">
+    <!-- <link rel="stylesheet" href="assets/css/perfect-scrollbar.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- page specific CSS -->
+</head>
+
+<body class="md-bg md-theme-gradient">
+    <!-- <div class="md-loader"></div> -->
+    <div class="md-wrapper">
+        <div class="md-sidenav">
+            <nav class="md-navigation">
+                <a href="index.html" class="md-nav_logo">
+                    <img src="images/logo.png" alt="md" class="md-nav_logo-image">
+                </a>
+                <ul class="md-nav_list">
+                    <li class="active">
+                        <a href="#">
+                            <i class="material-icons" aria-hidden="true">timeline</i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="material-icons " aria-hidden="true">view_carousel</i>
+                            <!-- <span class="i_badge">2</span> -->
+                            <span>Table</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="material-icons " aria-hidden="true">bar_chart</i>
+                            <span>Reports</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="material-icons " aria-hidden="true">person</i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="material-icons " aria-hidden="true">category</i>
+                            <span>UI Elements</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="material-icons " aria-hidden="true">power_settings_new</i>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Div 1 -->
+        <div class="container-fluid h100">
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <!-- start of top -->
+                    <div class="md_headr_top">
+                        <div class="hd_to row m-0">
+                            <div class="top_m_item col-md-2 ml-md-auto text-right">
+                                <p class="or_no_txt"><i class="fa fa-plus" aria-hidden="true"></i> New Product Option</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of top -->
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="all_cat md-raised">
+                        <h1 class="m_c_titel">Add Product</h1>
+                        <div class="col-md-12 p-l-r-15 p-b-20">
+                            <form>
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Product Name</label>
+                                </div>
+                                <div class="group">
+                                    <textarea> </textarea>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Product Description</label>
+                                </div>
+                                <div class="group pull-left w-49-p">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Short Code</label>
+                                </div>
+                                <div class="group pull-left w-50-p m-l-5">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Short Name</label>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="group">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Price</label>
+                                </div>
+                                <span class="switch switch-lg">
+                                    <input type="checkbox" class="switch" id="Recommended">
+                                    <label for="Recommended">Recommended</label>
+                                </span>
+                                <div class="clearfix"></div>
+                                <span class="switch switch-lg">
+                                    <input type="checkbox" class="switch" id="switch-id">
+                                    <label for="switch-id">Active/Inactive</label>
+                                </span>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                   
+                    <div class="col-md-12 p-0">
+                        <form>
+                            <div class="all_cat md-raised p-3">
+                                    <h1 class="m_c_titel">Stock</h1>
+                                <div class="group  pull-left w-49-p">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Quantity</label>
+                                </div>
+                                <div class="group pull-left w-50-p m-l-5">
+                                    <input type="text" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Stock Type</label>
+                                </div>
+
+                            </div>
+                            <div class="text-center m-t-15">
+                                <button type="submit" class="btn btn-primary btn-lg w-50">Add</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <div class="all_cat p-3 h-85-p">
+                        <h1 class="m_c_titel">Product images</h1>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-2">
+                                <p class="pro_img_titel"> Icon</p>
+                                <ul class="pro_img">
+                                    <li>
+                                        <div class="img-tm">
+                                            <img src="images/prod_img.png" width="100" class="img-fluid mx-auto d-block">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-1"></div>
+                            <div class="col-sm-12 col-md-9 text-right">
+                                <p class="pro_img_titel">Photo</p>
+                                <ul class="pro_img">
+                                    <li>
+                                        <div class="img-tm">
+                                            <img src="images/prod_img.png" width="100" class="img-fluid mx-auto d-block">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="img-tm">
+                                            <img src="images/prod_img.png" width="100" class="img-fluid mx-auto d-block">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="img-tm">
+                                            <img src="images/prod_img.png" width="100" class="img-fluid mx-auto d-block">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="all_cat p-3 h-20-p">
+                                <h1 class="pro_c_s_titel">Category</h1>
+                                <ul class="pro_cat_sel">
+                                    <li>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                            <label class="custom-control-label" for="customCheck">Category Name</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                            <label class="custom-control-label" for="customCheck">Category Name</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                            <label class="custom-control-label" for="customCheck">Category Name</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                            <label class="custom-control-label" for="customCheck">Category Name</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6">
+                            <div class="all_cat p-3 h-20-p">
+                                <h1 class="pro_c_s_titel">Product Option</h1>
+                                <ul class="pro_cat_sel">
+                                    <li>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                            <label class="custom-control-label" for="customCheck">Category Name</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                            <label class="custom-control-label" for="customCheck">Category Name</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                            <label class="custom-control-label" for="customCheck">Category Name</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                            <label class="custom-control-label" for="customCheck">Category Name</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h4 class="modal-title">Please select Table</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="title_main_sub m-t-b-15">Hello, world!</h1>
+                            <ul class="table_set_md">
+                                <li class="table_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="table_act_bg">
+                                    <a href="#">1</a>
+                                    <span class="time">1:50</span>
+                                </li>
+                                <li class="table_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="table_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="table_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="table_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="table_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="table_act_bg">
+                                    <a href="#">1</a>
+                                    <span class="time">1:50</span>
+                                </li>
+                                <li class="table_act_bg">
+                                    <a href="#">1</a>
+                                    <span class="time">1:50</span>
+                                </li>
+                                <li class="table_act_bg">
+                                    <a href="#">1</a>
+                                    <span class="time">1:50</span>
+                                </li>
+                                <li class="table_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-md-12">
+                            <h1 class="title_main_sub m-t-b-15">Hello, world!</h1>
+                            <ul class="kh_set_md">
+                                <li class="kh_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="kh_act_bg">
+                                    <a href="#">1</a>
+                                    <span class="time">1:50</span>
+                                </li>
+                                <li class="kh_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="kh_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="kh_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="kh_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="kh_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                                <li class="kh_act_bg">
+                                    <a href="#">1</a>
+                                    <span class="time">1:50</span>
+                                </li>
+                                <li class="kh_act_bg">
+                                    <a href="#">1</a>
+                                    <span class="time">1:50</span>
+                                </li>
+                                <li class="kh_act_bg">
+                                    <a href="#">1</a>
+                                    <span class="time">1:50</span>
+                                </li>
+                                <li class="kh_inact_bg">
+                                    <a href="#">1</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/css/dist/js/bootstrap.js"></script>
+<script src="assets/js/jquery.nicescroll.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.slimscroll.js"></script>
+<script src="assets/js/comman.js"></script>
+
+</html>
